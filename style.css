@@ -1,1 +1,37 @@
-
+.root {
+  ---brading-color: #272142;
+  ---content-font: "Poppins", sans-serif;
+}
+.cover {
+  background-color: #bdaaec;
+  text-align: center;
+  padding: 160px 20px;
+}
+.cover h1 {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 96px;
+}
+.cover h3 {
+  font-family: var(---content-font);
+  font-weight: bold;
+  font-size: 36px;
+  color: var(---brading-color);
+}
+.cover h4 {
+  font-family: var(---content-font);
+  font-weight: normal;
+  font-size: 24px;
+  color: var(---brading-color);
+  padding: 36px;
+}
+.cover .btn {
+  background: #1a1a1b;
+  border-radius: 4px;
+  border-color: #1a1a1b;
+  color: white;
+  line-height: 10px;
+  font-size: 18px;
+  padding: 18px 30px;
+}
