@@ -35,3 +35,6 @@
   font-size: 18px;
   padding: 18px 30px;
 }
+p {
+  font-family: var(---content-font);
+}
