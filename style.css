@@ -1,6 +1,7 @@
 .root {
   ---brading-color: #272142;
   ---content-font: "Poppins", sans-serif;
+  ---font-titles: "Playfair Display", serif;
 }
 .cover {
   background-color: #bdaaec;
@@ -9,7 +10,7 @@
 }
 .cover h1 {
   color: black;
-  font-family: "Playfair Display", serif;
+  font-family: var(---font-titles);
   font-weight: bold;
   font-size: 96px;
 }
@@ -26,6 +27,18 @@
   color: var(---brading-color);
   padding: 36px;
 }
+h2 {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: var(---font-titles);
+}
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: var(---content-font);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .cover .btn {
   background: #1a1a1b;
   border-radius: 4px;
@@ -40,10 +53,7 @@ p {
   font-size: 16px;
   font-weight: normal;
 }
-h2 {
-  font-size: 64px;
-  font-weight: bold;
-}
+
 .btn-secondary {
   background: #fdfdff;
   border-radius: 4px;
@@ -51,12 +61,43 @@ h2 {
   color: #6c63ff;
   line-height: 1.5px;
   font-size: 18px;
+  font-family: var(---content-font);
   padding: 18px 30px;
+}
+.btn-primary {
+  background-color: #bdaaec;
+  border-color: #bdaaec;
+  border-radius: 4px;
+  font-family: var(---content-font);
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  line-height: 27px;
+  width: 200px;
+  height: 63px;
+  padding: 18px 30px;
+}
+.btn:hover {
+  background-color: #cbc4dc;
+  border-color: #cbc4dc;
+  color: #d44bea;
 }
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 30px;
 }
 .imagen {
   background-color: black;
+}
+.hire-me {
+  background-color: #f9f7fe;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 103px;
+  padding: 30px;
+}
+.who-iam {
+  margin-left: 140px;
+  margin-right: 140px;
 }
