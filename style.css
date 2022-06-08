@@ -1,7 +1,5 @@
 .root {
   ---brading-color: #272142;
-  ---content-font: "Poppins", sans-serif;
-  ---font-titles: "Playfair Display", serif;
 }
 .cover {
   background-color: #bdaaec;
@@ -10,18 +8,18 @@
 }
 .cover h1 {
   color: black;
-  font-family: var(---font-titles);
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 96px;
 }
 .cover h3 {
-  font-family: var(---content-font);
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 36px;
   color: var(---brading-color);
 }
 .cover h4 {
-  font-family: var(---content-font);
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 24px;
   color: var(---brading-color);
@@ -30,14 +28,19 @@
 h2 {
   font-size: 64px;
   font-weight: bold;
-  font-family: var(---font-titles);
+  font-family: "Playfair Display", serif;
 }
 h6 {
   font-size: 18px;
   font-weight: bold;
-  font-family: var(---content-font);
+  font-family: "Poppins", sans-serif;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: bold;
 }
 .cover .btn {
   background: #1a1a1b;
@@ -49,7 +52,7 @@ h6 {
   padding: 18px 30px;
 }
 p {
-  font-family: var(---content-font);
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: normal;
 }
@@ -61,14 +64,15 @@ p {
   color: #6c63ff;
   line-height: 1.5px;
   font-size: 18px;
-  font-family: var(---content-font);
+  font-family: "Poppins", sans-serif;
   padding: 18px 30px;
+  text-align: center;
 }
 .btn-primary {
   background-color: #bdaaec;
   border-color: #bdaaec;
   border-radius: 4px;
-  font-family: var(---content-font);
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 18px;
   color: black;
@@ -76,6 +80,7 @@ p {
   width: 200px;
   height: 63px;
   padding: 18px 30px;
+  text-align: center;
 }
 .btn:hover {
   background-color: #cbc4dc;
