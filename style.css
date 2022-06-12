@@ -25,6 +25,9 @@
   color: var(---brading-color);
   padding: 36px;
 }
+.who-iam {
+  padding: 160px 20px;
+}
 h2 {
   font-size: 64px;
   font-weight: bold;
