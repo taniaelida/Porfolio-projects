@@ -98,11 +98,8 @@ img {
 .imagen {
   background-color: black;
 }
-.content-container {
+.content-purple {
   background-color: #f9f7fe;
-  margin-left: 140px;
-  margin-right: 140px;
-  margin-top: 103px;
   padding: 30px;
 }
 .content {
